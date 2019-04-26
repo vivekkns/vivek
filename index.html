@@ -1,232 +1,263 @@
 <!DOCTYPE html>
 <html lang="en"
-      class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths">
+class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <!-- Meta -->
     <!-- Use the .htaccess and remove these lines to avoid edge case issues.
-		 More info: h5bp.com/i/378 -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+     More info: h5bp.com/i/378 -->
+     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-    <!-- Our site title and description -->
-    <title>Vivek Kumar</title>
-    <meta name="description" content="Webpage for Vivek Kumar">
-    <meta name="keywords"
-          content="Vivek Kumar, Computational Science, Distriuted Systems">
-    <meta name="author" content="Vivek Kumar">
+     <!-- Our site title and description -->
+     <title>Vivek Kumar</title>
+     <meta name="description" content="Webpage for Vivek Kumar">
+     <meta name="keywords"
+     content="Vivek Kumar, Computational Science, Distriuted Systems">
+     <meta name="author" content="Vivek Kumar">
 
-    <!-- Mobile viewport optimized: h5bp.com/viewport -->
-    <meta name="viewport" content="width=device-width">
+     <!-- Mobile viewport optimized: h5bp.com/viewport -->
+     <meta name="viewport" content="width=device-width">
 
-    <link rel="shortcut icon" href="./res/images/vivek_kumar.ico">
+     <link rel="shortcut icon" href="./res/images/vivek_kumar.ico">
 
-    <!-- Shims: IE6-8 support of HTML5 elements -->
+     <!-- Shims: IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
     <script async src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+<![endif]-->
 
-    <!-- Styles -->
-    <link rel="stylesheet" href="./res/css/twitter-bootstrap.css">
-    <link rel="stylesheet" href="./res/css/style.css">
+<!-- Styles -->
+<link rel="stylesheet" href="./res/css/twitter-bootstrap.css">
+<link rel="stylesheet" href="./res/css/style.css">
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-138985803-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'UA-138985803-1');
-    </script>
-    <style type="text/css">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138985803-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-138985803-1');
+</script>
+<style type="text/css">
 
-        /* Set link color to red */
-        a, a:hover {
-            color: #990615;
-        }
+    /* Set link color to red */
+    a, a:hover {
+        color: #990615;
+    }
 
-        hr {
-            margin-top: 0em;
-            margin-bottom: 10px;
-        }
+    hr {
+        margin-top: 0em;
+        margin-bottom: 10px;
+    }
 
-        .lighttext {
-            font-weight: 300 !important;
-        }
+    .lighttext {
+        font-weight: 300 !important;
+    }
 
-        .normaltext {
-            font-weight: 400 !important;
-        }
+    .normaltext {
+        font-weight: 400 !important;
+    }
 
-        .boldtext {
-            font-weight: 700 !important;
-        }
+    .boldtext {
+        font-weight: 700 !important;
+    }
 
-        .semiboldtext {
-            font-weight: 500 !important;
-        }
+    .semiboldtext {
+        font-weight: 500 !important;
+    }
 
-        .info {
-            font-size: 13px;
-        }
+    .info {
+        font-size: 13px;
+    }
 
-        .paperitem {
-            font-size: 13px;
-            padding-bottom: 4px;
-        }
+    .paperitem {
+        font-size: 13px;
+        padding-bottom: 4px;
+    }
 
-        .paperaward {
-            background-color: #990615;
-            color: #FFFFFF;
-            font-variant: small-caps;
-            font-size: 12px;
-        }
+    .paperaward {
+        background-color: #990615;
+        color: #FFFFFF;
+        font-variant: small-caps;
+        font-size: 12px;
+    }
 
-        .infoitem {
-            margin-bottom: 20px;
-        }
+    .infoitem {
+        margin-bottom: 20px;
+    }
 
-        .mainitem {
-            margin-bottom: 1.25em;
-        }
+    .mainitem {
+        margin-bottom: 1.25em;
+    }
 
-        .smallfont {
-            font-size: 10.25px;
-        }
+    .smallfont {
+        font-size: 10.25px;
+    }
 
-        #brand {
-            font-family: 'Cabin', sans-serif;
+    #brand {
+        font-family: 'Cabin', sans-serif;
 
-            font-variant: small-caps;
-            font-size: 1.85em;
-            line-height: 1.0em;
-        }
+        font-variant: small-caps;
+        font-size: 1.85em;
+        line-height: 1.0em;
+    }
 
-        #bio {
-            text-align: justify;
-        }
+    #bio {
+        text-align: justify;
+    }
 
-        body {
-            font-family: 'Cabin', sans-serif;
-            font-size: 15px;
-        }
+    body {
+        font-family: 'Cabin', sans-serif;
+        font-size: 15px;
+    }
 
-        .header {
-          font-weight: bold;
-          font-size: 1.75em;
-          font-variant: small-caps;
-          line-height: 1.0em;
-      }
+    .header {
+      font-weight: bold;
+      font-size: 1.75em;
+      font-variant: small-caps;
+      line-height: 1.0em;
+  }
 
-      .infoheader {
-          font-weight: 900 !important;
-          font-size: 15px;
-          font-variant: small-caps;
-          line-height: 1.1em;
-      }
+  .infoheader {
+      font-weight: 900 !important;
+      font-size: 15px;
+      font-variant: small-caps;
+      line-height: 1.1em;
+  }
 
-  </style>
+</style>
 </head>
 <body style="">
-<!-- Menu -->
+    <!-- Menu -->
 
-<!-- Content -->
-<div class="container">
     <!-- Content -->
-    <section id="content" class="content">
-        <link href="./res/css" rel="stylesheet" type="text/css">
-        <div class="row">
-            <div class="col-md-12">
-                <div id="brand">
-                    <span class="lighttext" style="font:bold">Vivek Kumar</span>
-                </div>
-            </div>
-        </div>
-        <hr>
-        <div class="row">
-            <div class="col-md-3 info">
-                <div class="infoitem" id="headshot" style="margin-bottom: 5px">
-                    <img width="202" class="img-responsive"
-                         src="./res/images/vivek_kumar.jpg">
-                </div>
-
-                <div class="infoitem" id="affiliations">
-                    <a href="https://www.pluribusnetworks.com/">Software Engineer</a><br>
-                    <a href="https://www.pluribusnetworks.com/">Pluribus Networks</a> |
-                    <a href="https://www.goldmansachs.com/">Goldman Sachs</a> |
-                    <a href="https://www.iisc.ac.in/">Indian Institute of Science</a>
-                </div>
-
-                <div class="infoitem" id="contact">
-                    <div class="infoheader">Contact Information</div>
-                    <div> Bangalore, India</div>
-                    <a href="mailto:vivekkumar1987@gmail.com" style="text-decoration:none">
-                        <img src="./res/images/email_circle_black.svg" type="image/svg+xml" width="32px"
-                             style="vertical-align:middle">
-                    </a>
-                    &nbsp;
-                    <a href="https://www.linkedin.com/in/vivekkns/" style="text-decoration:none">
-                        <img src="./res/images/linkedin_circle_blue.svg" type="image/svg+xml" width="32px"
-                        style="vertical-align:middle">
-                    </a>
-                    &nbsp;
-                    <a href="https://github.com/vivekkns" style="text-decoration:none">
-                        <img src="./res/images/github_circle_black.svg" type="image/svg+xml" width="32px"
-                        style="vertical-align:middle">
-                    </a>
-                    &nbsp;
-                    <a href="https://twitter.com/vivekkumar1987" style="text-decoration:none">
-                        <img src="./res/images/twitter_circle_blue.svg" type="image/svg+xml" width="32px"
-                        style="vertical-align:middle">
-                    </a>
-                </div>
-
-                <div class="infoitem" id="teaching">
-                    <div class="infoheader">Interests</div>
-                    <hr style="margin-bottom: 3px">
-                    <div style="font-size: 12px">Distributed Systems / Parallel Programming</div>
-                    <div style="font-size: 12px">Computational and Data Systems</div>
-                    <div style="font-size: 12px">GPGPU Computation</div>
-                    <div style="font-size: 12px">Performance Engineering</div>
-                    <div style="font-size: 12px">Linux Operating Systems</div>
-                </div>
-            </div>
-
-
-            <div class="col-md-9" style="padding-left: 5px">
-                <div class="mainitem" id="bio">
-                    I've strong history of work experience (8 years) and I've done my masters in Computational and Data science from Indian Institute of Science, Bangalore. On many occasions, I've devised innovative solutions for many unique problems by either creating tools or re-architecting existing design.
-
-                    I have strong knowledge in fundamentals of computer science, algorithm design and data structures, Linux internals and networking fundamentals (TCP, UDP, SSL/TLS, socket programming). I have come across Python, C, CUDA(GPGPU), MPI, OpenMP, JavaScript, REST API, Twisted, RabbitMQ, Pyramid web framework, micro service architecture, Scala, Erlang/OTP and Go.
-
-                    I'm fascinated by scalable problems, distributed systems, high performance computing and data science/machine learning computation frameworks.
-                </div>
-                <div class="mainitem" id="news">
-                    <div class="header" style="//background-color: #f0f0f0;">
-                        Work Experience
+    <div class="container">
+        <!-- Content -->
+        <section id="content" class="content">
+            <link href="./res/css" rel="stylesheet" type="text/css">
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="brand">
+                        <span class="lighttext" style="font:bold">Vivek Kumar</span>
                     </div>
-                    <hr>
-                    <table>
-                        <tbody>
-                        <tr>
-                            <td valign="TOP" width="90px" align="RIGHT">
-                                <div class="newsdate" style="font-variant: small-caps;font-size: 14px;">
-                                   2016 - now
-                                </div>
-                            </td>
-                            <td valign="TOP" align="LEFT">
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-3 info">
+                    <div class="infoitem" id="headshot" style="margin-bottom: 5px">
+                        <img width="202" class="img-responsive"
+                        src="./res/images/vivek_kumar.jpg">
+                    </div>
+
+                    <div class="infoitem" id="affiliations">
+                        <a href="https://www.pluribusnetworks.com/">Software Engineer</a><br>
+                        <a href="https://www.pluribusnetworks.com/">Pluribus Networks</a> |
+                        <a href="https://www.goldmansachs.com/">Goldman Sachs</a> |
+                        <a href="https://www.iisc.ac.in/">Indian Institute of Science</a>
+                    </div>
+
+                    <div class="infoitem" id="contact">
+                        <div class="infoheader">Contact Information</div>
+                        <div style="padding: 3px"> Bangalore, India</div>
+                        <a href="mailto:vivekkumar1987@gmail.com" style="text-decoration:none">
+                            <img src="./res/images/email_circle_black.svg" type="image/svg+xml" width="32px"
+                            style="vertical-align:middle">
+                        </a>
+                        &nbsp;
+                        <a href="https://www.linkedin.com/in/vivekkns/" style="text-decoration:none">
+                            <img src="./res/images/linkedin_circle_blue.svg" type="image/svg+xml" width="32px"
+                            style="vertical-align:middle">
+                        </a>
+                        &nbsp;
+                        <a href="https://github.com/vivekkns" style="text-decoration:none">
+                            <img src="./res/images/github_circle_black.svg" type="image/svg+xml" width="32px"
+                            style="vertical-align:middle">
+                        </a>
+                        &nbsp;
+                        <a href="https://twitter.com/vivekkumar1987" style="text-decoration:none">
+                            <img src="./res/images/twitter_circle_blue.svg" type="image/svg+xml" width="32px"
+                            style="vertical-align:middle">
+                        </a>                        
+                        <a href="./res/docs/vivek_kumar_cv.pdf" style="text-decoration:none">
+                            <img src="./res/images/cv.png" type="image/svg+xml" width="32px"
+                            style="vertical-align:middle">
+                        </a>
+                    </div>
+
+                    <div class="infoitem" id="interests">
+                        <div class="infoheader">Interests</div>
+                        <div style="font-size: 12px">
+                            <hr style="margin-bottom: 3px">
+                            <div>Distributed Systems / Parallel Programming</div>
+                            <div>Computational and Data Systems</div>
+                            <div>GPGPU Computation</div>
+                            <div>High Performance Computing</div>
+                            <div>Performance Engineering</div>
+                            <div>Linux Operating Systems</div>
+                        </div>
+                    </div>
+
+                    <div class="infoitem" id="skills">
+                        <div class="infoheader">Technical Skills</div>
+                        <div style="font-size: 12px">
+                            <hr style="margin-bottom: 3px">
+                            <div>Erlang/OTP | Go | Scala</div>
+                            <div>Micro Service Architecture | REST API</div>
+                            <div>CUDA(GPGPU) | MPI | OpenMP</div>
+                            <div>RabbitMQ | SQL</div>
+                            <div>Python | Twisted | Pyramid</div>
+                            <div>C | C++ </div>
+                            <div>Javascript | Bash/Shell Scripts</div>
+                            <div>TCP/UDP | SSL/TLS | Socket Programming</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-9" style="padding-left: 5px">
+                    <div class="mainitem" id="bio">
+                        Vivek expertised in cloud engineering and distributed systems and he has obtained masters in Computational and Data science from Indian Institute of Science, Bangalore.
+                        He has devised innovative solutions to many unique problems by creating tools and re-architecting the software design.
+                        He is fascinated by scalable problems, high performance computing, low latency data systems and data science/machine learning computation frameworks.
+                    </div>
+                    <div class="mainitem" id="news">
+                        <div class="header" style="//background-color: #f0f0f0;">
+                            Work Experience
+                        </div>
+                        <hr>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td valign="TOP" width="90px" align="LEFT">
+                                        <div class="newsdate" style="font-variant: small-caps;font-size: 14px;">
+                                         2017 - now
+                                     </div>
+                                 </td>
+                                 <td valign="TOP" align="LEFT">
+                                    <div class="newstext" style="font-size: 14px;">
+                                        Pluribus Networks
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td valign="TOP" width="90px" align="LEFT">
+                                    <div class="newsdate" style="font-variant: small-caps;font-size: 14px;">
+                                     2013 - 2017
+                                 </div>
+                             </td>
+                             <td valign="TOP" align="LEFT">
                                 <div class="newstext" style="font-size: 14px;">
-                                    Pluribus Networks
+                                    Goldman Sachs
                                 </div>
                             </td>
                         </tr>
-                        </tbody>
-                    </table>
-                </div>
-                </div>
-
+                    </tbody>
+                </table>
             </div>
+
         </div>
-    </section>
+    </div>
+</div>
+</section>
 </div><!-- /container -->
 
 <!-- Scripts -->
