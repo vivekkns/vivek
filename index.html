@@ -115,15 +115,30 @@ class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage webs
       font-size: 1.75em;
       font-variant: small-caps;
       line-height: 1.0em;
-  }
+    }
 
-  .infoheader {
-      font-weight: 900 !important;
-      font-size: 15px;
-      font-variant: small-caps;
-      line-height: 1.1em;
-  }
+    .infoheader {
+        font-weight: 900 !important;
+        font-size: 15px;
+        font-variant: small-caps;
+        line-height: 1.1em;
+    }
 
+    @media print {
+        #Header, #Footer, .noprint { display: none !important;}
+        .noscreen{}
+    }
+
+    @media screen {
+        .noprint{}
+        .noscreen{display:none;}
+    }
+    
+    body  
+    { 
+        /* this affects the margin on the content before sending to printer */ 
+        margin: 0px;  
+    }
 </style>
 </head>
 <body style="">
@@ -138,6 +153,9 @@ class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage webs
                 <div class="col-md-12">
                     <div id="brand">
                         <span class="lighttext" style="font:bold">Vivek Kumar</span>
+                    </div>
+                    <div class="noscreen">
+                        <span>Bangalore, India / +91 900-883-4380 / vivekkumar1987@gmail.com</span>
                     </div>
                 </div>
             </div>
@@ -156,7 +174,7 @@ class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage webs
                         <a href="https://www.iisc.ac.in/">Indian Institute of Science</a>
                     </div>
 
-                    <div class="infoitem" id="contact">
+                    <div class="infoitem noprint" id="contact">
                         <div class="infoheader">Contact Information</div>
                         <div style="padding: 3px"> Bangalore, India</div>
                         <a href="mailto:vivekkumar1987@gmail.com" style="text-decoration:none">
@@ -177,7 +195,11 @@ class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage webs
                         <a href="https://twitter.com/vivek_kumark" style="text-decoration:none">
                             <img src="./res/images/twitter_circle_blue.svg" type="image/svg+xml" width="32px"
                             style="vertical-align:middle">
-                        </a>                        
+                        </a>     
+                        <a href="https://www.instagram.com/vivek.kumark" style="text-decoration:none">
+                            <img src="./res/images/instagram_circle.svg" type="image/svg+xml" width="32px"
+                            style="vertical-align:middle">
+                        </a>                   
                         <a href="./res/docs/vivek_kumar_cv.pdf" style="text-decoration:none">
                             <img src="./res/images/cv.png" type="image/svg+xml" width="32px"
                             style="vertical-align:middle">
@@ -220,7 +242,7 @@ class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage webs
                         He is fascinated by scalable problems, high performance computing, low latency data systems and data science/machine learning computation frameworks.
                     </div>
                     <div class="mainitem" id="news">
-                        <div class="header" style="//background-color: #f0f0f0;">
+                        <div class="header" style="background-color:#f0f0f0;">
                             Work Experience
                         </div>
                         <hr>
