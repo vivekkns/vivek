@@ -1,146 +1,155 @@
 <!DOCTYPE html>
 <html lang="en"
-class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths">
+    class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths">
+
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <!-- Meta -->
     <!-- Use the .htaccess and remove these lines to avoid edge case issues.
      More info: h5bp.com/i/378 -->
-     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-     <!-- Our site title and description -->
-     <title>Vivek Kumar</title>
-     <meta name="description" content="Webpage for Vivek Kumar">
-     <meta name="keywords"
-     content="Vivek Kumar, Computational Science, Distriuted Systems">
-     <meta name="author" content="Vivek Kumar">
+    <!-- Our site title and description -->
+    <title>Vivek Kumar</title>
+    <meta name="description" content="Webpage for Vivek Kumar">
+    <meta name="keywords" content="Vivek Kumar, Computational Science, Distriuted Systems">
+    <meta name="author" content="Vivek Kumar">
 
-     <!-- Mobile viewport optimized: h5bp.com/viewport -->
-     <meta name="viewport" content="width=device-width">
+    <!-- Mobile viewport optimized: h5bp.com/viewport -->
+    <meta name="viewport" content="width=device-width">
 
-     <link rel="shortcut icon" href="./res/images/vivek_kumar.ico">
+    <link rel="shortcut icon" href="./res/images/vivek_kumar.ico">
 
-     <!-- Shims: IE6-8 support of HTML5 elements -->
+    <!-- Shims: IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
     <script async src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
 
-<!-- Styles -->
-<link rel="stylesheet" href="./res/css/twitter-bootstrap.css">
-<link rel="stylesheet" href="./res/css/style.css">
+    <!-- Styles -->
+    <link rel="stylesheet" href="./res/css/twitter-bootstrap.css">
+    <link rel="stylesheet" href="./res/css/style.css">
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138985803-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'UA-138985803-1');
-</script>
-<style type="text/css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-138985803-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-138985803-1');
+    </script>
+    <style type="text/css">
+        /* Set link color to red */
+        a,
+        a:hover {
+            color: #990615;
+        }
 
-    /* Set link color to red */
-    a, a:hover {
-        color: #990615;
-    }
+        hr {
+            margin-top: 0em;
+            margin-bottom: 10px;
+        }
 
-    hr {
-        margin-top: 0em;
-        margin-bottom: 10px;
-    }
+        .lighttext {
+            font-weight: 300 !important;
+        }
 
-    .lighttext {
-        font-weight: 300 !important;
-    }
+        .normaltext {
+            font-weight: 400 !important;
+        }
 
-    .normaltext {
-        font-weight: 400 !important;
-    }
+        .boldtext {
+            font-weight: 700 !important;
+        }
 
-    .boldtext {
-        font-weight: 700 !important;
-    }
+        .semiboldtext {
+            font-weight: 500 !important;
+        }
 
-    .semiboldtext {
-        font-weight: 500 !important;
-    }
+        .info {
+            font-size: 13px;
+        }
 
-    .info {
-        font-size: 13px;
-    }
+        .paperitem {
+            font-size: 13px;
+            padding-bottom: 4px;
+        }
 
-    .paperitem {
-        font-size: 13px;
-        padding-bottom: 4px;
-    }
+        .paperaward {
+            background-color: #990615;
+            color: #FFFFFF;
+            font-variant: small-caps;
+            font-size: 12px;
+        }
 
-    .paperaward {
-        background-color: #990615;
-        color: #FFFFFF;
-        font-variant: small-caps;
-        font-size: 12px;
-    }
+        .infoitem {
+            margin-bottom: 20px;
+        }
 
-    .infoitem {
-        margin-bottom: 20px;
-    }
+        .mainitem {
+            margin-bottom: 1.25em;
+        }
 
-    .mainitem {
-        margin-bottom: 1.25em;
-    }
+        .smallfont {
+            font-size: 10.25px;
+        }
 
-    .smallfont {
-        font-size: 10.25px;
-    }
+        #brand {
+            font-family: 'Cabin', sans-serif;
 
-    #brand {
-        font-family: 'Cabin', sans-serif;
+            font-variant: small-caps;
+            font-size: 1.85em;
+            line-height: 1.0em;
+        }
 
-        font-variant: small-caps;
-        font-size: 1.85em;
-        line-height: 1.0em;
-    }
+        #bio {
+            text-align: justify;
+        }
 
-    #bio {
-        text-align: justify;
-    }
+        body {
+            font-family: 'Cabin', sans-serif;
+            font-size: 15px;
+        }
 
-    body {
-        font-family: 'Cabin', sans-serif;
-        font-size: 15px;
-    }
+        .header {
+            font-weight: bold;
+            font-size: 1.75em;
+            font-variant: small-caps;
+            line-height: 1.0em;
+        }
 
-    .header {
-      font-weight: bold;
-      font-size: 1.75em;
-      font-variant: small-caps;
-      line-height: 1.0em;
-    }
+        .infoheader {
+            font-weight: 900 !important;
+            font-size: 15px;
+            font-variant: small-caps;
+            line-height: 1.1em;
+        }
 
-    .infoheader {
-        font-weight: 900 !important;
-        font-size: 15px;
-        font-variant: small-caps;
-        line-height: 1.1em;
-    }
+        @media print {
 
-    @media print {
-        #Header, #Footer, .noprint { display: none !important;}
-        .noscreen{}
-    }
+            #Header,
+            #Footer,
+            .noprint {
+                display: none !important;
+            }
 
-    @media screen {
-        .noprint{}
-        .noscreen{display:none;}
-    }
-    
-    body  
-    { 
-        /* this affects the margin on the content before sending to printer */ 
-        margin: 0px;  
-    }
-</style>
+            .noscreen {}
+        }
+
+        @media screen {
+            .noprint {}
+
+            .noscreen {
+                display: none;
+            }
+        }
+
+        body {
+            /* this affects the margin on the content before sending to printer */
+            margin: 0px;
+        }
+    </style>
 </head>
+
 <body style="">
     <!-- Menu -->
 
@@ -163,8 +172,7 @@ class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage webs
             <div class="row">
                 <div class="col-md-3 info">
                     <div class="infoitem" id="headshot" style="margin-bottom: 5px">
-                        <img width="202" class="img-responsive"
-                        src="./res/images/vivek_kumar.jpg">
+                        <img width="202" class="img-responsive" src="./res/images/vivek_kumar.jpg">
                     </div>
 
                     <div class="infoitem" id="affiliations">
@@ -172,7 +180,7 @@ class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage webs
                         <a href="https://www.iisc.ac.in/">Indian Institute of Science</a></br>
                         <a href="https://www.pluribusnetworks.com/">Pluribus Networks</a> |
                         <a href="https://www.goldmansachs.com/">Goldman Sachs</a>
-                        
+
                     </div>
 
                     <div class="infoitem noprint" id="contact">
@@ -180,30 +188,30 @@ class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage webs
                         <div style="padding: 3px"> Bangalore, India</div>
                         <a href="mailto:vivekkumar1987@gmail.com" style="text-decoration:none">
                             <img src="./res/images/email_circle_black.svg" type="image/svg+xml" width="32px"
-                            style="vertical-align:middle">
+                                style="vertical-align:middle">
                         </a>
                         &nbsp;
                         <a href="https://www.linkedin.com/in/vivekkumark/" style="text-decoration:none">
                             <img src="./res/images/linkedin_circle_blue.svg" type="image/svg+xml" width="32px"
-                            style="vertical-align:middle">
+                                style="vertical-align:middle">
                         </a>
                         &nbsp;
                         <a href="https://github.com/vivekkumark" style="text-decoration:none">
                             <img src="./res/images/github_circle_black.svg" type="image/svg+xml" width="32px"
-                            style="vertical-align:middle">
+                                style="vertical-align:middle">
                         </a>
                         &nbsp;
                         <a href="https://twitter.com/vivek_kumark" style="text-decoration:none">
                             <img src="./res/images/twitter_circle_blue.svg" type="image/svg+xml" width="32px"
-                            style="vertical-align:middle">
-                        </a>     
+                                style="vertical-align:middle">
+                        </a>
                         <a href="https://www.instagram.com/vivek.kumark" style="text-decoration:none">
                             <img src="./res/images/instagram_circle.svg" type="image/svg+xml" width="32px"
-                            style="vertical-align:middle">
-                        </a>                   
+                                style="vertical-align:middle">
+                        </a>
                         <a href="./res/docs/vivek_kumar_cv.pdf" style="text-decoration:none">
                             <img src="./res/images/cv.png" type="image/svg+xml" width="32px"
-                            style="vertical-align:middle">
+                                style="vertical-align:middle">
                         </a>
                     </div>
 
@@ -238,55 +246,194 @@ class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage webs
 
                 <div class="col-md-9" style="padding-left: 5px">
                     <div class="mainitem" id="bio">
-                        Vivek expertised in cloud engineering and distributed systems and he has obtained masters in Computational and Data science from Indian Institute of Science, Bangalore.
-                        He has devised innovative solutions to many unique problems by creating tools and re-architecting the software design.
-                        He is fascinated by scalable problems, high performance computing, low latency data systems and data science/machine learning computation frameworks.
+                        Vivek expertised in cloud engineering and distributed systems and he has obtained masters in
+                        Computational and Data science from Indian Institute of Science, Bangalore.
+                        He has devised innovative solutions to many unique problems by creating tools and
+                        re-architecting the software design.
+                        He is fascinated by scalable problems, high performance computing, low latency data systems and
+                        data science/machine learning computation frameworks.
                     </div>
                     <div class="mainitem" id="news">
                         <div class="header" style="background-color:#f0f0f0;">
-                            Work Experience
+                            Experience
                         </div>
-                        <hr>
-                        <table>
-                            <tbody>
-                                <tr>
-                                    <td valign="TOP" width="90px" align="LEFT">
-                                        <div class="newsdate" style="font-variant: small-caps;font-size: 14px;">
-                                         2017 - now
-                                     </div>
-                                 </td>
-                                 <td valign="TOP" align="LEFT">
-                                    <div class="newstext" style="font-size: 14px;">
-                                        Pluribus Networks
+                        <!-- <hr> -->
+                        <!-- <div class="page">
+                            <div class="timeline">
+                                <div class="timeline__group">
+                                    <span class="timeline__year">2008</span>
+                                    <div class="timeline__box">
+                                        <div class="timeline__date">
+                                            <span class="timeline__day">2</span>
+                                            <span class="timeline__month">Feb</span>
+                                        </div>
+                                        <div class="timeline__post">
+                                            <div class="timeline__content">
+                                                <p>Attends the Philadelphia Museum School of Industrial Art. Studies
+                                                    design with Alexey Brodovitch, art director at Harper's Bazaar, and
+                                                    works as his assistant.</p>
+                                            </div>
+                                        </div>
                                     </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td valign="TOP" width="90px" align="LEFT">
-                                    <div class="newsdate" style="font-variant: small-caps;font-size: 14px;">
-                                     2013 - 2017
-                                 </div>
-                             </td>
-                             <td valign="TOP" align="LEFT">
-                                <div class="newstext" style="font-size: 14px;">
-                                    Goldman Sachs
+                                    <div class="timeline__box">
+                                        <div class="timeline__date">
+                                            <span class="timeline__day">1</span>
+                                            <span class="timeline__month">Sept</span>
+                                        </div>
+                                        <div class="timeline__post">
+                                            <div class="timeline__content">
+                                                <p>Started from University of Pennsylvania. This is an important stage
+                                                    of my career. Here I worked in the local magazine. The experience
+                                                    greatly affected me</p>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
+                                <div class="timeline__group">
+                                    <span class="timeline__year">2014</span>
+                                    <div class="timeline__box">
+                                        <div class="timeline__date">
+                                            <span class="timeline__day">14</span>
+                                            <span class="timeline__month">Jul</span>
+                                        </div>
+                                        <div class="timeline__post">
+                                            <div class="timeline__content">
+                                                <p>Travels to France, Italy, Spain, and Peru. After completing fashion
+                                                    editorial in Lima, prolongs stay to make portraits of local people
+                                                    in a daylight studio</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="timeline__group">
+                                    <span class="timeline__year">2016</span>
+                                    <div class="timeline__box">
+                                        <div class="timeline__date">
+                                            <span class="timeline__day">28</span>
+                                            <span class="timeline__month">Aug</span>
+                                        </div>
+                                        <div class="timeline__post">
+                                            <div class="timeline__content">
+                                                <p>Upon moving to Brooklyn that summer, I began photographing weddings
+                                                    in Chicago</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="linkedin">
+                            <div class="linkedin__container">
+                                <p class="linkedin__text">I'm looking for my fans which I'll give away everything I
+                                    know. If you're interested then 👉 <a
+                                        href="https://www.patreon.com/posts/introduction-to-34774556"
+                                        class="linkedin__link" rel="noopener noreferrer" target="_blank">join to me on
+                                        Patreon!</a></p>
+                            </div>
+                        </div> -->
+
+                        <link
+                            href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic'
+                            rel='stylesheet' type='text/css'>
+
+                        <!-- The Timeline -->
+
+                        <ul class="timeline">
+
+                            <!-- Item 1 -->
+                            <li>
+                                <div class="direction-l">
+                                    <div class="flag-wrapper">
+                                        <span class="flag">Pluribus Networks</span>
+                                        <span class="time-wrapper"><span class="time">2017 - present</span></span>
+                                    </div>
+                                    <div class="desc" style="text-align: left">
+                                        I work on an architecture which simplifies our clients’ software-defined data
+                                        centers by virtualizing networking hardware,
+                                        enabling them to build scalable and secure private and public clouds
+                                    </div>
+                                    <div class="desc" style="text-align: left">
+                                        Designed and developed hierarchical distributed transaction framework 
+                                        for seamlessly build and manage hyper-scale infra - more than 256 nodes
+                                    </div>
+                                </div>
+                            </li>
+
+                            <!-- Item 2 -->
+                            <li>
+                                <div class="direction-l">
+                                    <div class="flag-wrapper">
+                                        <span class="flag">Goldman Sachs</span>
+                                        <span class="time-wrapper"><span class="time">2013 - 2017</span></span>
+                                    </div>
+                                    <div class="desc" style="text-align: left">
+                                        Worked on various roles in the Technology Infrastructure team which manages the
+                                        firm’s computing needs
+                                    </div>
+                                    <div class="desc" style="text-align: left">
+                                        Designed and implemented  
+                                        a secure, scalable, and highly available job scheduling infra
+                                    </div>
+                                </div>
+                            </li>
+
+                            <!-- Item 3 -->
+                            <li>
+                                <div class="direction-r">
+                                    <div class="flag-wrapper">
+                                        <span class="flag">Indian Institute of Science</span>
+                                        <span class="time-wrapper"><span class="time">2011 - 2013</span></span>
+                                    </div>
+                                    <div class="desc">
+                                        Computational and Data Science
+                                        <br/>
+                                        Research: GPGPU and Distributed systems
+                                    </div>
+                                </div>
+                            </li>
+
+                            <!-- Item 4-->
+                            <li>
+                                <div class="direction-l">
+                                    <div class="flag-wrapper">
+                                        <span class="flag">Larsen & Toubro</span>
+                                        <span class="time-wrapper"><span class="time">2008 - 2011</span></span>
+                                    </div>
+                                    <div class="desc">
+                                        Software Developer
+                                    </div>
+                                </div>
+                            </li>
+
+                            <!-- Item 5-->
+                            <li>
+                                <div class="direction-r">
+                                    <div class="flag-wrapper">
+                                        <span class="flag">PSG College of Technology</span>
+                                        <span class="time-wrapper"><span class="time">2004 - 2008</span></span>
+                                    </div>
+                                    <div class="desc">
+                                        Robotics
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
             </div>
 
-        </div>
     </div>
-</div>
-</section>
-</div><!-- /container -->
+    </div>
+    </div>
+    </section>
+    </div><!-- /container -->
 
-<!-- Scripts -->
-<script defer="defer" src="./res/scripts/jquery.min.js"></script>
-<script defer="defer" src="./res/scripts/modernizr.min.js"></script>
-<script defer="defer" src="./res/scripts/bootstrap.min.js"></script>
+    <!-- Scripts -->
+    <script defer="defer" src="./res/scripts/jquery.min.js"></script>
+    <script defer="defer" src="./res/scripts/modernizr.min.js"></script>
+    <script defer="defer" src="./res/scripts/bootstrap.min.js"></script>
 
 </body>
+
 </html>
